@@ -41,6 +41,9 @@ case class Bedrag private[finance] (waarde: BigDecimal) {
   def afgerondOp(aantalDecimalen: Integer, afrondingsWijze: RoundingMode): Bedrag =
     Bedrag(waarde.setScale(aantalDecimalen, afrondingsWijze))
 
+  /** Returnt het aantal centen dat het bedrag vormt */
+  def centen: Long = (afgekaptOpCenten / Bedrag.centNaarEuroFactor).waarde.toLong
+
   /** Kapt dit bedrag af (naar beneden) op het gegeven aantal decimalen. */
   private def afgekaptOp(decimalen: Int): Bedrag = afgerondOp(decimalen, BigDecimal.RoundingMode.FLOOR)
 
