@@ -80,6 +80,12 @@ class BedragTest extends FlatSpec with Matchers {
     x.waarde.getClass should be(classOf[BigDecimal])
   }
 
+  it should "return the value in centen" in {
+    val a = "123.45".euro
+    val expected = 12345L
+    val actual = a.centen
+    actual should be(expected)
+  }
 }
 
 class BedragImplicitsTest extends FlatSpec with Matchers {
