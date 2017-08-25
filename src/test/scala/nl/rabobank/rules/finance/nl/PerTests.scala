@@ -1,4 +1,4 @@
-package org.scalarules.finance.nl
+package nl.rabobank.rules.finance.nl
 
 import org.scalatest.{FlatSpec, Matchers}
 
