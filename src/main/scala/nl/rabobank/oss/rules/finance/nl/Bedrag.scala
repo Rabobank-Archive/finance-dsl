@@ -1,4 +1,4 @@
-package nl.rabobank.rules.finance.nl
+package nl.rabobank.oss.rules.finance.nl
 
 import java.text.NumberFormat
 import java.util.Locale

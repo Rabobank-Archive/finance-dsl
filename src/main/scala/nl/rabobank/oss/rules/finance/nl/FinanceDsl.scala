@@ -1,4 +1,4 @@
-package nl.rabobank.rules.finance.nl
+package nl.rabobank.oss.rules.finance.nl
 
 trait FinanceDsl extends BedragImplicits
   with PeriodeImplicits

@@ -1,6 +1,6 @@
-package nl.rabobank.rules.finance.nl
+package nl.rabobank.oss.rules.finance.nl
 
-import nl.rabobank.rules.finance.core.Quantity
+import nl.rabobank.oss.rules.finance.core.Quantity
 
 // scalastyle:off method.name
 

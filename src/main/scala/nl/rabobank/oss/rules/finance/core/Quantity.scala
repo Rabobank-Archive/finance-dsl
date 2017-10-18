@@ -1,6 +1,7 @@
-package nl.rabobank.rules.finance.core
+package nl.rabobank.oss.rules.finance.core
 
-import nl.rabobank.rules.finance.nl._
+import nl.rabobank.oss.rules.finance.nl.{Bedrag, Halfjaar, Jaar, Kwartaal, Maand, Termijn}
+import nl.rabobank.oss.rules.finance.nl._
 
 import scala.annotation.implicitNotFound
 
