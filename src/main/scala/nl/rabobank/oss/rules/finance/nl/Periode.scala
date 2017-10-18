@@ -1,4 +1,4 @@
-package org.scalarules.finance.nl
+package nl.rabobank.oss.rules.finance.nl
 
 // scalastyle:off method.name
 

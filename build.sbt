@@ -3,10 +3,10 @@
 useGpg := false
 
 lazy val commonSettings = Seq(
-  organization := "org.scala-rules",
-  organizationHomepage := Some(url("https://github.com/scala-rules")),
-  homepage := Some(url("https://github.com/scala-rules/finance-dsl")),
-  version := "0.1.3-SNAPSHOT",
+  organization := "nl.rabobank.oss.rules",
+  organizationHomepage := Some(url("https://github.com/rabobank-nederland")),
+  homepage := Some(url("https://github.com/rabobank-nederland/finance-dsl")),
+  version := "0.2.0-SNAPSHOT",
   scalaVersion := "2.11.8",
   scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-Xlint", "-Xfatal-warnings")
 ) ++ staticAnalysisSettings ++ publishSettings
@@ -105,8 +105,8 @@ lazy val pom =
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@github.com:scala-rules/finance-dsl.git</connection>
-    <developerConnection>scm:git:git@github.com:scala-rules/finance-dsl.git</developerConnection>
-    <url>git@github.com:scala-rules/finance-dsl.git</url>
+    <connection>scm:git:git@github.com:rabobank-nederland/finance-dsl.git</connection>
+    <developerConnection>scm:git:git@github.com:rabobank-nederland/finance-dsl.git</developerConnection>
+    <url>git@github.com:rabobank-nederland/finance-dsl.git</url>
   </scm>
   

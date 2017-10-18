@@ -1,6 +1,7 @@
-package org.scalarules.finance.core
+package nl.rabobank.oss.rules.finance.core
 
-import org.scalarules.finance.nl._
+import nl.rabobank.oss.rules.finance.nl.{Bedrag, Maand}
+import nl.rabobank.oss.rules.finance.nl._
 import org.scalatest.{FlatSpec, Matchers}
 
 class QuantityTest extends FlatSpec with Matchers {

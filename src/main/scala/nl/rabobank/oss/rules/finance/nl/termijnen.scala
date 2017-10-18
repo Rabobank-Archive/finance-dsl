@@ -1,4 +1,4 @@
-package org.scalarules.finance.nl
+package nl.rabobank.oss.rules.finance.nl
 
 /** Mogelijke periodes om te gebruiken met `Per`. */
 sealed trait Termijn extends Periode
